@@ -1,9 +1,9 @@
 package main;
 
 public class Rate {
-    protected double gaming;
-    protected double typing;
-    protected double universal;
+    public double gaming;
+    public double typing;
+    public double universal;
 
     public Rate(double gaming, double typing, double universal) {
         this.gaming = gaming;

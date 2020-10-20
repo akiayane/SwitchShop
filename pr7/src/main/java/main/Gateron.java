@@ -2,17 +2,16 @@ package main;
 
 public class Gateron extends Switch {
 
-    protected String manufacturer = "Gateron";
+    public String manufacturer = "Gateron";
 
-    public Gateron(double price, int opForce, String name, String description, String type, Rate rate) {
+    public Gateron(double price, int opForce, String name, String type, Rate rate) {
         this.price = price;
         this.opForce = opForce;
         this.name = name;
-        this.description = description;
         this.type = type;
         this.rate = rate;
     }
-
+    @Override
     public String getManufacturer() {
         return manufacturer;
     }

@@ -13,7 +13,7 @@ public class Order {
         return switchName.getPrice() * quantity;
     }
 
-    public void printOrder(){
-        System.out.println("Your order is" + quantity + switchName);
+    public String printOrder(){
+        return "Your order is: " + quantity + " " + switchName.getManufacturer() + " " + switchName.name;
     }
 }

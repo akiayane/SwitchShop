@@ -1,12 +1,11 @@
 package main;
 
 abstract public class Switch implements encode {
-    protected double price;
-    protected int opForce;
-    protected String name;
-    protected String description;
-    protected String type;
-    protected Rate rate;
+    public double price;
+    public int opForce;
+    public String name;
+    public String type;
+    public Rate rate;
 
     public double getPrice() {
         return price;
@@ -20,9 +19,6 @@ abstract public class Switch implements encode {
         return name;
     }
 
-    public String getDescription() {
-        return description;
-    }
 
     public String getType() {
         return type;
@@ -30,5 +26,9 @@ abstract public class Switch implements encode {
 
     public Rate getRate() {
         return rate;
+    }
+
+    public String getManufacturer(){
+        return "";
     }
 }

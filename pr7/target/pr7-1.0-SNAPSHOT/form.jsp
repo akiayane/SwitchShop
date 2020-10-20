@@ -19,7 +19,7 @@
 <div class = "center">
     <div class = "form">
 
-        <form action="form.php" method="post">
+        <form action="LoginServlet" method="post">
             Enter your login: <br>
             <input type="text" name="login"><br>
             Enter your password: <br>

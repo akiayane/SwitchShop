@@ -11,8 +11,7 @@ import java.io.IOException;
 @WebServlet("/RegisterServlet")
 public class RegisterServlet extends HttpServlet {
 
-    protected void doPost(HttpServletRequest request,
-                          HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         // get request parameters for userID and password
         String login = request.getParameter("login");

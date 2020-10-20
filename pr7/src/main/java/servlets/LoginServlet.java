@@ -1,11 +1,10 @@
 package servlets;
 
+import main.Cart;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 import java.io.IOException;
 
 @WebServlet("/LoginServlet")
@@ -31,14 +30,17 @@ public class LoginServlet extends HttpServlet {
         String login = request.getParameter("login");
         String password = request.getParameter("password");
 
-        if(login == loginAfter && password == passwordAfter){
-            Cookie loggedin = new Cookie("loggedin", "true");
+        if(login.equals(loginAfter) && password.equals(passwordAfter)){
+
+            Cookie loggedin = new Cookie("loggedin", login);
             loggedin.setMaxAge(30*60);
             response.addCookie(loggedin);
+            HttpSession session = request.getSession();
+            session.setMaxInactiveInterval(60);
+            Cart cart = new Cart();
+            session.setAttribute("cart", cart);
             response.sendRedirect("index.jsp");
         }
-
-
 
     }
 

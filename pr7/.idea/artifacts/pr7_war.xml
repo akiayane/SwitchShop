@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pr7:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pr7</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pr7-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pr7:war exploded" />
+    </root>
+  </artifact>
+</component>

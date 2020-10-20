@@ -10,7 +10,7 @@ body div{
 }
 
 .header{
-    background-color: #9cd5f0;
+    background-color: #ecbc00;
     height: 15vh;
     width: 100vw;
 }
@@ -33,9 +33,14 @@ a:hover, a:active {
     background-color: white;
     color: black;
 }
+.centering{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .headdivs{
-    width:15vw;
+    width:13vw;
     height:14vh;
     display: flex;
     align-items: center;
@@ -50,7 +55,7 @@ a:hover, a:active {
 }
 
 .main{
-    height: 83vh;
+    height: 85vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -76,4 +81,38 @@ a:hover, a:active {
 .form{
     border:1px solid black;
     padding: 2vh;
+}
+
+.as{
+    font-size: 2vw;
+    border: none;
+    background-color: inherit;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.as:hover{
+    background-color: white;
+    color: black;
+}
+
+.underline{
+
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+.record{
+    background-color: black;
+    color: white;
+    padding: 2vh;
+    width: 90vw;
+    height: 20vh;
+}
+.record div{
 }

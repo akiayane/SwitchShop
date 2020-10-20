@@ -23,9 +23,14 @@ public class Cart {
         cart.add(new Order(switchname, quantity));
     }
 
-    public void getAllOrders(){
+    public String getAllOrders(){
+        String temp= "";
         for (Order item : cart){
-            item.printOrder();
+            temp += item.printOrder();
+            temp += "\n";
         }
+        return temp;
     }
+
+
 }
