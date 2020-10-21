@@ -57,6 +57,7 @@
             out.print("<form action = \"CartServlet\" method=\"post\">\n" +
                     "                    <input type=\"number\" name=\"quant\">\n" +
                     "                    <input style = \"display:none\" name=\"name\" value=\""+item.name+"\">\n" +
+                    "                    <input style = \"display:none\" name=\"manufacturer\" value=\""+item.getManufacturer()+"\">\n" +
                     "                    <input type=\"submit\" value=\"Add to Cart\">\n" +
                     "                    </form>");
 

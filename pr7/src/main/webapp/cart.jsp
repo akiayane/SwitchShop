@@ -10,8 +10,15 @@
 <%@include file="swHeaders.jsp"%>
 <%
     Cart cart = (Cart)session.getAttribute("cart");
+    out.print("\n");
     out.print(cart.getAllOrders());
-    out.print(cart.getTotal());
+    out.print("\n");
+    if(cart.getTotal()==0.0){
+        out.print("Your cart is Empty");
+    }else{
+        out.print("Total price is: ");
+        out.print(cart.getTotal());
+    }                    
 %>
 
 </body>

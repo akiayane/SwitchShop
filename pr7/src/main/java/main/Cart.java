@@ -16,6 +16,7 @@ public class Cart {
             total += item.getTotalPrice();
         }
 
+
         return total;
     }
 
@@ -24,13 +25,11 @@ public class Cart {
     }
 
     public String getAllOrders(){
-        String temp= "";
+        String temp= "Your order is: ";
         for (Order item : cart){
             temp += item.printOrder();
             temp += "\n";
         }
         return temp;
     }
-
-
 }

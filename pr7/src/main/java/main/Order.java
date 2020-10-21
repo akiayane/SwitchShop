@@ -14,6 +14,6 @@ public class Order {
     }
 
     public String printOrder(){
-        return "Your order is: " + quantity + " " + switchName.getManufacturer() + " " + switchName.name;
+        return "|" + quantity + " " + switchName.getManufacturer() + " " + switchName.name;
     }
 }

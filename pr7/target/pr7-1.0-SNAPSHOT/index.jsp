@@ -214,7 +214,7 @@
                     <span> Excellent feel, long life, gold contacts, multiple feel options.</span>
                 </div>
                 <div class="centering" style="height: 13vh; width: 20vw; font-size: 1vw; padding: 0.5vw;">
-                    Have a look to all <a class="underline" style="color: black" href="gateron.jsp">Kailh Switches!</a>
+                    Have a look to all <a class="underline" style="color: black" href="kailh.jsp">Kailh Switches!</a>
                 </div>
             </div>
         </div>
@@ -231,7 +231,7 @@
                         MX switches provide levels of performance, durability and comfort, delivering the ultimate gaming experience.</span>
                 </div>
                 <div class="centering" style=" height: 13vh; width: 20vw; font-size: 1vw; padding: 0.5vw;">
-                    Have a look to all <a class="underline" style="color: black" href="gateron.jsp">Cherry Switches!</a>
+                    Have a look to all <a class="underline" style="color: black" href="cherry.jsp">Cherry Switches!</a>
                 </div>
             </div>
         </div>
@@ -248,7 +248,7 @@
                         switches can be a great way to save on cost with a minimal tradeoff in performance.</span>
                 </div>
                 <div class="centering" style=" height: 13vh; width: 20vw; font-size: 1vw; padding: 0.5vw;">
-                    Have a look to all <a class="underline" style="color: black" href="gateron.jsp">Outemu Switches!</a>
+                    Have a look to all <a class="underline" style="color: black" href="outemu.jsp">Outemu Switches!</a>
                 </div>
             </div>
         </div>
